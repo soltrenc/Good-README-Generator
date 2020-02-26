@@ -62,6 +62,8 @@ inquirer
 ### ${res.data.location}
 # Title
 ### ${res.data.title}
+# Description
+### ${res.data.description}
             `
             fs.writeFile("readme.md", profileStr, function (err) {
                 if (err) {
