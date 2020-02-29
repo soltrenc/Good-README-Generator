@@ -51,8 +51,8 @@ inquirer
 
         axios.get(queryUrl, {
             auth: {
-                username: 'soltrenc',
-                password: 'iNotlNN41!'
+                username: '',
+                password: ''
             }
         }).then(res => {
             console.log('res ', res)
